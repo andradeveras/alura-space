@@ -7,4 +7,5 @@ class Listando_fotografias(admin.ModelAdmin):
     search_fields = ("nome",)
 
 
+
 admin.site.register(Fotografia, Listando_fotografias)
