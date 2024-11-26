@@ -41,7 +41,7 @@
                 </nav>
             </section>
             <section class="galeria" style="margin-left: 5em">
-                <form action="{% url 'cadastro' %}" method="action">
+                <form action="{% url 'cadastro' %}" method="post">
                     {% csrf_token %}
                     <div class="row">
                         {% for field in form.visible_fields %}
